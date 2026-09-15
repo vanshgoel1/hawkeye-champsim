@@ -23,7 +23,7 @@ void HawkeyePredictor::train(uint64_t pc, bool opt_hit) {
 }
 
 bool HawkeyePredictor::predict(uint64_t pc) const {
-    return (get_counter(hash(pc)) & msb_checker) > 0;
+    return (get_counter(pc) & msb_checker) > 0;
 }
 
 int HawkeyePredictor::get_counter(uint64_t pc) const {

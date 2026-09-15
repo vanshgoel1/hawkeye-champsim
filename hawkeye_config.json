@@ -1,8 +1,9 @@
 {
     "LLC": { 
         "replacement": "hawkeye",
-        "sets": 8192,
-        "ways": 4
+        "sets": 2048,
+        "ways": 16
     }
 }
 
+ 
